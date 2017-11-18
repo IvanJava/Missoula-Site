@@ -1,0 +1,120 @@
+<html>
+
+<head>
+<title> Missoula Site </title>
+<style type = text/css>
+
+* { margin: 0; padding: 0;}
+
+body{
+font-family:arial;
+background color: #ebebeb
+}
+
+#header
+{
+background-color: black;
+height: 120px;
+width: 100%;
+}
+
+.container
+{
+width: 1160px;
+height: auto;
+margin: 0 auto;
+}
+
+#logoArea
+{
+width: 432px;
+height: 117px;
+background-image: url(logo3.png);
+float: left;
+}
+
+#logoArea:hover
+{
+background-image: url(logo2.png);
+}
+
+
+
+#navArea
+{
+height: 120px;
+float:right;
+}
+
+#nav
+{
+list-style: none;
+margin-top: 35px;
+}
+
+#nav a 
+{
+color:white;
+text-decoration: none;
+}
+
+#nav li
+{
+float: left;
+margin-left: 10px;
+background-color: 252525;
+padding: 8px;
+border: 2px solid silver;
+border-radius: 12px;
+}
+
+
+#nav li:hover
+{
+background-color: grey;
+}
+
+
+.page
+{
+
+padding: 150px;
+}
+
+
+</style>
+</head>
+
+<body>
+	<div id = "header">
+	<div class = "container">
+	<div id = "logoArea"></div>
+	<div id = "navArea">
+	
+	<ul id = "nav">
+	<a href = "trail.htm"><li>Best hiking trails around</li></a>
+	<a href = "#"><li>Geography</li></a>
+	<a href = "#"><li>Climate</li></a>
+	<a href = "#"><li> Culture</li></a>
+	<a href = "#"><li>Parks and Recreation</li></a>
+	</ul>
+	</div>
+	</div>
+	<div>
+
+
+	<div id = "mainArea">
+	
+	<div class = "page">
+	
+	<p> <b>Missoula</b> is a <strong>city</strong> in the U.S. <i>state of Montana</i> and is the county seat of <em> Missoula County</em>. <br> It is located along the Clark Fork River near its confluences with the Bitterroot and Blackfoot Rivers in western Montana and at the convergence of five mountain ranges, thus is often described as the "hub of five valleys". In 2016, the United States Census Bureau estimated the city's population at 72,364 and the population of the Missoula Metropolitan Area at 116,130.In the 1990s, Missoula overtook Great Falls as Montana's second largest city, behind Billings. Missoula is home to the University of Montana, a public research university.</p>
+	<br>
+	<hr />
+	</div>
+	</div>
+	
+	
+	<img src = "pic.jpg" width = "800px">
+</body>
+
+</html>
